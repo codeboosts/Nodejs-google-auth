@@ -15,7 +15,7 @@ mongoose.connect(process.env.MONGO_URI,{
     useUnifiedTopology: true
 })
 
-// Passport config
+// Passport
 require('./config/passport')(passport)
 
 
